@@ -1,0 +1,77 @@
+bluecolor = rgb(0, 108, 180)
+secondbluecolor = rgb(2,111,186)
+textsize = 53.09px
+windowsize = 1600px
+firstcolumnsize = windowsize * 0.7571 * 0.44
+
+
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('/src/css/fonts/MyriadPro/MyriadPro-Bold.eot');
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'),
+          url('/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+          url('/src/css/fonts/MyriadPro/MyriadPro-Bold.woff') format('woff'),
+          url('/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face
+  font-family Myriad Pro Light
+  src url('/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf') format('truetype')
+  font-weight: normal;
+  font-style: normal;
+
+@font-face
+  font-family Myriad Pro Regular
+  src url('/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf') format('truetype')
+  font-weight: normal;
+  font-style: normal;
+
+
+
+
+.experience
+  .title
+    margin-left 2%
+    width 90.66%
+    margin-bottom 52px
+    .group-title
+      margin-left 2.696%
+  .exp_container
+    width 90.66%
+    margin-left 2%
+    ul
+      margin-top 34px
+      list-style none
+      margin-left 28px
+      margin-bottom 67px
+      li::before
+        content ""
+        display inline-block
+        position absolute
+        border 13px black solid
+        border-radius 100%
+        left -52px
+        top 8px
+      li
+        position relative
+        font-family "Myriad Pro Regular"
+        font-size 0.625 * textsize
+        .exp_specialty
+          text-transform uppercase
+          font-family "Myriad Pro"
+        .exp_date
+          margin-left 20px
+        .exp_job
+          text-transform uppercase
+          display inline-block
+          margin-top 5px
+        .exp_discription
+          font-family "Myriad Pro Regular"
+          font-size 0.375 * textsize
+          margin 0px
+          margin-top 7px
+          margin-left 3px
+          margin-bottom 14px

@@ -1,0 +1,558 @@
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot");
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix") format('embedded-opentype'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.woff") format('woff'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Light;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Медиа запросы*/
+@media (max-width: 1000px) {
+  .maindiv {
+    flex-wrap: nowrap;
+  }
+}
+/*Функции рисования круга*/
+body {
+  font-family: "Myriad Pro Regular";
+  margin: 0;
+}
+/*Основной контейнер*/
+.maindiv {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 2263.328px;
+  max-height: 2263.328px;
+}
+.groupelement:nth-child(1),
+.groupelement:nth-child(2),
+.groupelement:nth-child(3),
+.groupelement:nth-child(4) {
+  width: 43.75%;
+  max-width: 43.75%;
+}
+.groupelement:nth-child(5),
+.groupelement:nth-child(6),
+.groupelement:nth-child(7) {
+  width: 56.25%;
+  max-width: 56.25%;
+}
+/*Заголовок раздела*/
+.group-title {
+  color: #006cb4;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Myriad Pro", Salina;
+  font-style: normal;
+  display: inline-block;
+  margin: 0;
+  margin-left: 14px;
+  font-size: 53.09px;
+}
+/*Контейнер заголовков*/
+.title {
+  width: 530px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+/*Рисунок круга перед заголовком раздела*/
+.profile .icon-group,
+.education .icon-group,
+.software .icon-group {
+  display: inline-block;
+  background-color: #026fba;
+  width: 85.001px;
+  height: 82.001px;
+  min-width: 85.001px;
+  border: #fff 3.9995px solid;
+  border-radius: 100%;
+  box-shadow: #026fba 0 0 0 1px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+.experience .icon-group {
+  display: inline-block;
+  background-color: #026fba;
+  width: 88.6642px;
+  height: 84.6642px;
+  min-width: 88.6642px;
+  border: #fff 4.167899999999999px solid;
+  border-radius: 100%;
+  box-shadow: #026fba 0 0 0 1px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+.icon-group {
+  display: inline-block;
+  background-color: #026fba;
+  width: 82.2536px;
+  height: 82.2536px;
+  min-width: 82.2536px;
+  border: #fff 3.8732px solid;
+  border-radius: 100%;
+  box-shadow: #026fba 0 0 0 1px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+/*Полоса после заголовка раздела*/
+/*.group-title::after {
+   content ""
+   display inline-block
+   background-color bluecolor
+   float right
+   margin-right 0
+   width 170px
+   height 6px
+   margin-left 11px
+   vertical-align middle
+ }*/
+.title::after {
+  content: "";
+  display: inline-block;
+  background-color: #006cb4;
+  position: relative;
+  float: right;
+  margin-right: 0;
+  width: 1000px;
+  height: 6px;
+  margin-left: 11px;
+  vertical-align: middle;
+}
+.profile {
+  padding-bottom: 59px;
+}
+.profile .title {
+  margin-left: 11.43%;
+}
+.profile .profile_text_container {
+  margin-left: 11.43%;
+  width: 530px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.profile .profile_text_container .profile_text {
+  font-size: 19.91px;
+  margin: 0;
+}
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot");
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix") format('embedded-opentype'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.woff") format('woff'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Light;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.contact .group-title {
+  margin-left: 17px;
+}
+.contact {
+  padding-bottom: 20px;
+}
+.contact .table_info {
+  margin-left: 11.43%;
+}
+.contact .title {
+  margin-left: 11.43%;
+}
+.table_info {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+.table_info tr {
+  height: 70px;
+  max-height: 70px;
+}
+.table_info tr td:first-child {
+  color: #006cb4;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  font-size: 26.5px;
+  width: 166px;
+  max-width: 166px;
+}
+.table_info tr td:last-child {
+  font-family: "Myriad Pro Regular";
+  font-size: 26.5px;
+  text-align: left;
+}
+.table_info tr td {
+  vertical-align: top;
+}
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot");
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix") format('embedded-opentype'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.woff") format('woff'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Light;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Иконка первого раздела*/
+.icon-main {
+  background-color: #006cb4;
+  width: 260.0002px;
+  height: 260.0002px;
+  border: #fff 18.9999px solid;
+  border-radius: 100%;
+  box-shadow: #006cb4 0 0 0 1px;
+  margin: auto;
+  margin-top: 115px;
+  margin-bottom: 26px;
+}
+/*первый раздел*/
+.namehere {
+  text-align: center;
+  padding-bottom: 104px;
+}
+.namehere span {
+  display: block;
+}
+.namehere .name {
+  font-family: "Myriad Pro Light";
+  font-size: 67.4243px;
+}
+.namehere .surname {
+  font-family: "Myriad Pro";
+  font-size: 79.635px;
+  line-height: 0.75;
+}
+.namehere .graphicdes {
+  margin-top: 16px;
+  font-family: "Myriad Pro";
+  font-size: 31.854px;
+}
+.skills .title {
+  margin-left: 11.43%;
+}
+.skills_container {
+  margin-left: 11.43%;
+  width: 533px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 38px;
+}
+.skills_container .ellipse_container {
+  display: flex;
+  justify-content: space-between;
+  width: 413px;
+  margin: auto;
+  margin-top: 19px;
+  margin-bottom: 35px;
+}
+.skills_container .blue_ellipse,
+.skills_container .white_ellipse {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+}
+.skills_container .blue_ellipse {
+  background-color: #006cb4;
+}
+.skills_container .white_ellipse {
+  background-color: #e7e7e7;
+}
+.skills_container .skills_element {
+  font-family: "Myriad Pro Regular";
+  text-transform: uppercase;
+  font-size: 33.181250000000006px;
+  line-height: 22.98797px;
+/*Рисование кружков*/
+}
+.creative .white_ellipse {
+  box-shadow: #e7e7e7 -35px 0, #e7e7e7 -73px 0;
+}
+.creative .blue_ellipse {
+  box-shadow: #006cb4 35px 0, #006cb4 70px 0, #006cb4 105px 0, #006cb4 140px 0, #006cb4 178px 0, #006cb4 213px 0, #006cb4 248px 0, #006cb4 283px 0;
+}
+.teamwork .blue_ellipse {
+  box-shadow: #006cb4 35px 0, #006cb4 70px 0, #006cb4 105px 0, #006cb4 140px 0, #006cb4 178px 0, #006cb4 213px 0, #006cb4 248px 0, #006cb4 283px 0, #006cb4 318px 0, #006cb4 356px 0;
+}
+.innovate .blue_ellipse {
+  box-shadow: #006cb4 35px 0, #006cb4 70px 0, #006cb4 105px 0, #006cb4 140px 0, #006cb4 178px 0;
+}
+.innovate .white_ellipse {
+  box-shadow: #e7e7e7 -35px 0, #e7e7e7 -73px 0, #e7e7e7 -108px 0, #e7e7e7 -143px 0, #e7e7e7 -178px 0;
+}
+.communication .blue_ellipse {
+  box-shadow: #006cb4 35px 0, #006cb4 70px 0, #006cb4 105px 0, #006cb4 140px 0, #006cb4 178px 0, #006cb4 213px 0, #006cb4 248px 0, #006cb4 283px 0, #006cb4 318px 0, #006cb4 356px 0;
+}
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot");
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix") format('embedded-opentype'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.woff") format('woff'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Light;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.education {
+  padding-top: 98px;
+}
+.education .title {
+  margin-left: 2%;
+  width: 90.66%;
+}
+.education .title .group-title {
+  margin-left: 3.309%;
+}
+.education .edu_container {
+  width: 90.66%;
+  margin-left: 2%;
+}
+.education .edu_container ul {
+  margin-top: 34px;
+  list-style: none;
+  margin-left: 28px;
+  margin-bottom: 67px;
+}
+.education .edu_container ul li::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border: 13px #000 solid;
+  border-radius: 100%;
+  left: -52px;
+  top: 8px;
+}
+.education .edu_container ul li {
+  position: relative;
+  font-family: "Myriad Pro Regular";
+  font-size: 33.181250000000006px;
+}
+.education .edu_container ul li .edu_specialty {
+  text-transform: uppercase;
+  color: #006cb4;
+  font-family: "Myriad Pro";
+}
+.education .edu_container ul li .edu_date {
+  margin-left: 20px;
+}
+.education .edu_container ul li .edu_university {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 3px;
+}
+.education .edu_container ul li .edu_discription {
+  font-family: "Myriad Pro Regular";
+  font-size: 19.90875px;
+  margin: 0px;
+  margin-top: 8px;
+  margin-left: 2px;
+  margin-bottom: 14px;
+}
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot");
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix") format('embedded-opentype'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.woff") format('woff'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Light;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.experience .title {
+  margin-left: 2%;
+  width: 90.66%;
+  margin-bottom: 52px;
+}
+.experience .title .group-title {
+  margin-left: 2.696%;
+}
+.experience .exp_container {
+  width: 90.66%;
+  margin-left: 2%;
+}
+.experience .exp_container ul {
+  margin-top: 34px;
+  list-style: none;
+  margin-left: 28px;
+  margin-bottom: 67px;
+}
+.experience .exp_container ul li::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border: 13px #000 solid;
+  border-radius: 100%;
+  left: -52px;
+  top: 8px;
+}
+.experience .exp_container ul li {
+  position: relative;
+  font-family: "Myriad Pro Regular";
+  font-size: 33.181250000000006px;
+}
+.experience .exp_container ul li .exp_specialty {
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+}
+.experience .exp_container ul li .exp_date {
+  margin-left: 20px;
+}
+.experience .exp_container ul li .exp_job {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 5px;
+}
+.experience .exp_container ul li .exp_discription {
+  font-family: "Myriad Pro Regular";
+  font-size: 19.90875px;
+  margin: 0px;
+  margin-top: 7px;
+  margin-left: 3px;
+  margin-bottom: 14px;
+}
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot");
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix") format('embedded-opentype'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.woff") format('woff'), url("/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Light;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Myriad Pro Regular;
+  src: url("/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.software .title {
+  width: 90.66%;
+  margin-left: 2%;
+}
+.software .title .group-title {
+  margin-left: 3.19%;
+}
+.software .table_software {
+  width: 90.66%;
+  margin-left: 2%;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Myriad Pro Regular";
+  font-size: 33.181250000000006px;
+}
+.software .table_software tr:first-child td:first-child::after {
+  content: "";
+  width: 358px;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 90%, #e7e7e7 90%);
+}
+.software .table_software tr:first-child td:last-child::after {
+  content: "";
+  width: 358px;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 80%, #e7e7e7 80%);
+}
+.software .table_software tr:nth-child(2) td:first-child::after {
+  content: "";
+  width: 358px;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 70%, #e7e7e7 70%);
+}
+.software .table_software tr:nth-child(2) td:last-child::after {
+  content: "";
+  width: 358px;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 60%, #e7e7e7 60%);
+}
+.software .table_software tr:last-child td:first-child::after {
+  content: "";
+  width: 358px;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 55%, #e7e7e7 55%);
+}
+.software .table_software tr:last-child td:last-child::after {
+  content: "";
+  width: 358px;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 90%, #e7e7e7 90%);
+}
+.software .table_software tr td:first-child {
+  width: 446px;
+}

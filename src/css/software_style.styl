@@ -1,0 +1,78 @@
+bluecolor = rgb(0, 108, 180)
+secondbluecolor = rgb(2,111,186)
+greycolor = rgb(231,231,231)
+textsize = 53.09px
+windowsize = 1600px
+firstcolumnsize = windowsize * 0.7571 * 0.44
+
+
+/*Шрифты*/
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('/src/css/fonts/MyriadPro/MyriadPro-Bold.eot');
+  src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'),
+          url('/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+          url('/src/css/fonts/MyriadPro/MyriadPro-Bold.woff') format('woff'),
+          url('/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face
+  font-family Myriad Pro Light
+  src url('/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf') format('truetype')
+  font-weight: normal;
+  font-style: normal;
+
+@font-face
+  font-family Myriad Pro Regular
+  src url('/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf') format('truetype')
+  font-weight: normal;
+  font-style: normal;
+
+
+func_gradient(d1)
+  &::after
+    content ""
+    width 358px
+    height 29px
+    display block
+    background-color bluecolor
+    background linear-gradient(to right, bluecolor d1, greycolor d1)
+
+
+.software
+  .title
+    width 90.66%
+    margin-left 2%
+    .group-title
+      margin-left 3.19%
+  .table_software
+    width 90.66%
+    margin-left 2%
+    color black
+    text-transform uppercase
+    font-family "Myriad Pro Regular"
+    font-size 0.625 * textsize
+    tr:first-child
+      td:first-child
+        func_gradient(90%)
+      td:last-child
+        func_gradient(80%)
+    tr:nth-child(2)
+      td:first-child
+        func_gradient(70%)
+      td:last-child
+        func_gradient(60%)
+    tr:last-child
+      td:first-child
+        func_gradient(55%)
+      td:last-child
+        func_gradient(90%)
+    tr
+      td:first-child
+        width 446px
+
+
+
+

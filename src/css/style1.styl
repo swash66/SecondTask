@@ -1,0 +1,169 @@
+bluecolor = rgb(0, 108, 180)
+secondbluecolor = rgb(2,111,186)
+textsize = 53.09px
+windowsize = 1600px
+firstcolumnsize = windowsize * 0.7571
+
+
+/*Шрифты*/
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/src/css/fonts/MyriadPro/MyriadPro-Bold.eot');
+    src: local('/src/css/fonts/MyriadPro/Myriad Pro Bold'), local('MyriadPro-Bold'),
+    url('/src/css/fonts/MyriadPro/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/src/css/fonts/MyriadPro/MyriadPro-Bold.woff') format('woff'),
+    url('/src/css/fonts/MyriadPro/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face
+    font-family Myriad Pro Light
+    src url('/src/css/fonts/MyriadPro/MyriadPro-LightSemiExt.ttf') format('truetype')
+    font-weight: normal;
+    font-style: normal;
+
+@font-face
+  font-family Myriad Pro Regular
+  src url('/src/css/fonts/MyriadPro/MyriadPro-Regular.ttf') format('truetype')
+  font-weight: normal;
+  font-style: normal;
+
+
+/*Медиа запросы*/
+@media (max-width: 1000px) {
+  .maindiv {
+    flex-wrap nowrap
+  }
+}
+
+/*Функции рисования круга*/
+funcellipse( color1, r, r2 )
+  widthborder = r*0.0421
+  diametr = r - 2 - widthborder*2
+  diametr2 = r2 - 2 - widthborder*2
+  background-color color1
+  width diametr
+  height diametr2
+  min-width diametr
+  border white widthborder  solid
+  border-radius 100%
+  box-shadow color1 0 0 0 1px
+
+funcellipse1( color1, r)
+  widthborder = r*0.063333
+  diametr = r - 2 - widthborder*2
+  background-color color1
+  width diametr
+  height diametr
+  border white widthborder  solid
+  border-radius 100%
+  box-shadow color1 0 0 0 1px
+
+body
+  font-family "Myriad Pro Regular"
+  margin 0
+/*Основной контейнер*/
+
+
+.maindiv
+    width 100%
+    max-width 100%
+    display flex
+    flex-wrap wrap
+    flex-direction column
+    justify-content start
+    align-items start
+    height windowsize * 1.41458
+    max-height windowsize * 1.41458
+
+
+.groupelement
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4)
+        width 43.75%
+        //max-width 38.75%
+        max-width 43.75%
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7)
+        width 56.25%
+        max-width 56.25%
+
+
+
+/*Заголовок раздела*/
+.group-title {
+    color bluecolor
+    text-transform uppercase
+    font-weight bold
+    font-family "Myriad Pro", Salina
+    font-style normal
+    display inline-block
+    margin 0
+    margin-left 14px
+    font-size textsize
+}
+
+/*Контейнер заголовков*/
+.title
+  width 530px
+  display flex
+  flex-direction row
+  flex-wrap nowrap
+  justify-content flex-start
+  align-items center
+
+
+/*Рисунок круга перед заголовком раздела*/
+.profile .icon-group,
+.education .icon-group,
+.software .icon-group
+    display: inline-block
+    funcellipse(secondbluecolor, 95px, 92px)
+    margin-left 1px
+    margin-top 1px
+
+.experience .icon-group
+  display: inline-block
+  funcellipse(secondbluecolor, 99px, 95px)
+  margin-left 1px
+  margin-top 1px
+
+.icon-group
+  display: inline-block
+  funcellipse(secondbluecolor, 92px, 92px)
+  margin-left 1px
+  margin-top 1px
+
+
+/*Полоса после заголовка раздела*/
+/*.group-title::after {
+   content ""
+   display inline-block
+   background-color bluecolor
+   float right
+   margin-right 0
+   width 170px
+   height 6px
+   margin-left 11px
+   vertical-align middle
+ }*/
+
+
+.title::after {
+  content ""
+  display inline-block
+  background-color bluecolor
+  position relative
+  float right
+  margin-right 0
+  width 1000px
+  height 6px
+  margin-left 11px
+  vertical-align middle
+}
+
+
