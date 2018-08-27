@@ -70,27 +70,43 @@ body
     width 100%
     max-width 100%
     display flex
-    flex-wrap wrap
-    flex-direction column
+    flex-wrap nowrap
+    flex-direction row
     justify-content start
     align-items start
     height windowsize * 1.41458
     max-height windowsize * 1.41458
 
 
-.groupelement
+.firstcolumn
+  width 43.75%
+  max-width 43.75%
+.secondcolumn
+  width 56.25%
+  max-width 56.25%
+/*.groupelement
     &:nth-child(1),
     &:nth-child(2),
     &:nth-child(3),
     &:nth-child(4)
         width 43.75%
-        //max-width 38.75%
         max-width 43.75%
     &:nth-child(5),
     &:nth-child(6),
     &:nth-child(7)
         width 56.25%
-        max-width 56.25%
+        max-width 56.25%*/
+
+.groupelement
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3),
+  &:nth-child(4),
+  &:nth-child(5),
+  &:nth-child(6),
+  &:nth-child(7)
+    width 100%
+    max-width 100%
 
 
 
@@ -108,13 +124,25 @@ body
 }
 
 /*Контейнер заголовков*/
-.title
-  width 530px
-  display flex
-  flex-direction row
-  flex-wrap nowrap
-  justify-content flex-start
-  align-items center
+.firstcolumn
+  .title
+    width 75.714%
+    display flex
+    flex-direction row
+    flex-wrap nowrap
+    justify-content flex-start
+    align-items center
+    margin-left 11.43%
+
+.secondcolumn
+  .title
+    width 90.66%
+    display flex
+    flex-direction row
+    flex-wrap nowrap
+    justify-content flex-start
+    align-items center
+    margin-left 2%
 
 
 /*Рисунок круга перед заголовком раздела*/
@@ -165,5 +193,15 @@ body
   margin-left 11px
   vertical-align middle
 }
+
+
+.firstcolumn
+.secondcolumn
+  display flex
+  flex-wrap wrap
+  flex-direction column
+  justify-content start
+  align-items start
+
 
 

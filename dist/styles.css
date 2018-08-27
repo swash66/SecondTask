@@ -34,25 +34,42 @@ body {
   width: 100%;
   max-width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: start;
   align-items: start;
   height: 2263.328px;
   max-height: 2263.328px;
 }
-.groupelement:nth-child(1),
-.groupelement:nth-child(2),
-.groupelement:nth-child(3),
-.groupelement:nth-child(4) {
+.firstcolumn {
   width: 43.75%;
   max-width: 43.75%;
 }
+.secondcolumn {
+  width: 56.25%;
+  max-width: 56.25%;
+}
+/*.groupelement
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4)
+        width 43.75%
+        max-width 43.75%
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7)
+        width 56.25%
+        max-width 56.25%*/
+.groupelement:nth-child(1),
+.groupelement:nth-child(2),
+.groupelement:nth-child(3),
+.groupelement:nth-child(4),
 .groupelement:nth-child(5),
 .groupelement:nth-child(6),
 .groupelement:nth-child(7) {
-  width: 56.25%;
-  max-width: 56.25%;
+  width: 100%;
+  max-width: 100%;
 }
 /*Заголовок раздела*/
 .group-title {
@@ -67,13 +84,23 @@ body {
   font-size: 53.09px;
 }
 /*Контейнер заголовков*/
-.title {
-  width: 530px;
+.firstcolumn .title {
+  width: 75.714%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 11.43%;
+}
+.secondcolumn .title {
+  width: 90.66%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2%;
 }
 /*Рисунок круга перед заголовком раздела*/
 .profile .icon-group,
@@ -138,15 +165,20 @@ body {
   margin-left: 11px;
   vertical-align: middle;
 }
+.firstcolumn,
+.secondcolumn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
 .profile {
   padding-bottom: 59px;
 }
-.profile .title {
-  margin-left: 11.43%;
-}
 .profile .profile_text_container {
   margin-left: 11.43%;
-  width: 530px;
+  width: 75.714%;
   margin-top: 16px;
   margin-bottom: 0;
   padding: 0;
@@ -182,9 +214,6 @@ body {
   padding-bottom: 20px;
 }
 .contact .table_info {
-  margin-left: 11.43%;
-}
-.contact .title {
   margin-left: 11.43%;
 }
 .table_info {
@@ -248,6 +277,7 @@ body {
 .namehere {
   text-align: center;
   padding-bottom: 104px;
+  padding-left: 1.43%;
 }
 .namehere span {
   display: block;
@@ -266,12 +296,9 @@ body {
   font-family: "Myriad Pro";
   font-size: 31.854px;
 }
-.skills .title {
-  margin-left: 11.43%;
-}
 .skills_container {
   margin-left: 11.43%;
-  width: 533px;
+  width: 75.714%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -280,7 +307,7 @@ body {
 .skills_container .ellipse_container {
   display: flex;
   justify-content: space-between;
-  width: 413px;
+  width: 78.9%;
   margin: auto;
   margin-top: 19px;
   margin-bottom: 35px;
@@ -345,10 +372,6 @@ body {
 }
 .education {
   padding-top: 98px;
-}
-.education .title {
-  margin-left: 2%;
-  width: 90.66%;
 }
 .education .title .group-title {
   margin-left: 3.309%;
@@ -419,8 +442,6 @@ body {
   font-style: normal;
 }
 .experience .title {
-  margin-left: 2%;
-  width: 90.66%;
   margin-bottom: 52px;
 }
 .experience .title .group-title {
@@ -490,15 +511,76 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.software .title {
-  width: 90.66%;
-  margin-left: 2%;
-}
 .software .title .group-title {
   margin-left: 3.19%;
 }
+.software .software_list {
+  width: 90.66%;
+  max-width: 90.66%;
+  margin-left: 2%;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Myriad Pro Regular";
+  font-size: 33.181250000000006px;
+  display: flex;
+}
+.software .software_list .software_list_column {
+  display: flex;
+  width: 50%;
+  max-width: 50%;
+  flex-direction: column;
+}
+.software .software_list .software_list_column1 .software_element:nth-child(1)::after {
+  content: "";
+  width: 87.74%;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 90%, #e7e7e7 90%);
+}
+.software .software_list .software_list_column1 .software_element:nth-child(2)::after {
+  content: "";
+  width: 87.74%;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 70%, #e7e7e7 70%);
+}
+.software .software_list .software_list_column1 .software_element:nth-child(3)::after {
+  content: "";
+  width: 87.74%;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 55%, #e7e7e7 55%);
+}
+.software .software_list .software_list_column2 .software_element:nth-child(1)::after {
+  content: "";
+  width: 87.74%;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 80%, #e7e7e7 80%);
+}
+.software .software_list .software_list_column2 .software_element:nth-child(2)::after {
+  content: "";
+  width: 87.74%;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 60%, #e7e7e7 60%);
+}
+.software .software_list .software_list_column2 .software_element:nth-child(3)::after {
+  content: "";
+  width: 87.74%;
+  height: 29px;
+  display: block;
+  background-color: #006cb4;
+  background: linear-gradient(to right, #006cb4 90%, #e7e7e7 90%);
+}
 .software .table_software {
   width: 90.66%;
+  max-width: 90.66%;
   margin-left: 2%;
   color: #000;
   text-transform: uppercase;
@@ -507,7 +589,7 @@ body {
 }
 .software .table_software tr:first-child td:first-child::after {
   content: "";
-  width: 358px;
+  width: 87.74%;
   height: 29px;
   display: block;
   background-color: #006cb4;
@@ -515,7 +597,7 @@ body {
 }
 .software .table_software tr:first-child td:last-child::after {
   content: "";
-  width: 358px;
+  width: 87.74%;
   height: 29px;
   display: block;
   background-color: #006cb4;
@@ -523,7 +605,7 @@ body {
 }
 .software .table_software tr:nth-child(2) td:first-child::after {
   content: "";
-  width: 358px;
+  width: 87.74%;
   height: 29px;
   display: block;
   background-color: #006cb4;
@@ -531,7 +613,7 @@ body {
 }
 .software .table_software tr:nth-child(2) td:last-child::after {
   content: "";
-  width: 358px;
+  width: 87.74%;
   height: 29px;
   display: block;
   background-color: #006cb4;
@@ -539,7 +621,7 @@ body {
 }
 .software .table_software tr:last-child td:first-child::after {
   content: "";
-  width: 358px;
+  width: 87.74%;
   height: 29px;
   display: block;
   background-color: #006cb4;
@@ -547,7 +629,7 @@ body {
 }
 .software .table_software tr:last-child td:last-child::after {
   content: "";
-  width: 358px;
+  width: 87.74%;
   height: 29px;
   display: block;
   background-color: #006cb4;

@@ -34,7 +34,8 @@ firstcolumnsize = windowsize * 0.7571 * 0.44
 func_gradient(d1)
   &::after
     content ""
-    width 358px
+    //width 358px
+    width 87.74%
     height 29px
     display block
     background-color bluecolor
@@ -43,12 +44,39 @@ func_gradient(d1)
 
 .software
   .title
-    width 90.66%
-    margin-left 2%
     .group-title
       margin-left 3.19%
+  .software_list
+    width 90.66%
+    max-width 90.66%
+    margin-left 2%
+    color black
+    text-transform uppercase
+    font-family "Myriad Pro Regular"
+    font-size 0.625 * textsize
+    display flex
+    .software_list_column
+      display flex
+      width 50%
+      max-width 50%
+      flex-direction column
+    .software_list_column1
+      .software_element:nth-child(1)
+        func_gradient(90%)
+      .software_element:nth-child(2)
+        func_gradient(70%)
+      .software_element:nth-child(3)
+        func_gradient(55%)
+    .software_list_column2
+      .software_element:nth-child(1)
+        func_gradient(80%)
+      .software_element:nth-child(2)
+        func_gradient(60%)
+      .software_element:nth-child(3)
+        func_gradient(90%)
   .table_software
     width 90.66%
+    max-width 90.66%
     margin-left 2%
     color black
     text-transform uppercase
