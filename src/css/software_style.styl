@@ -53,12 +53,18 @@ func_gradient(d1)
     color black
     text-transform uppercase
     font-family "Myriad Pro Regular"
-    font-size 0.625 * textsize
+    font-size 0.625em
     display flex
+    @media (max-width: 900px)
+      flex-direction column
+      align-items center
     .software_list_column
       display flex
       width 50%
       max-width 50%
+      @media (max-width 900px)
+        width 80%
+        max-width 80%
       flex-direction column
     .software_list_column1
       .software_element:nth-child(1)
@@ -74,32 +80,6 @@ func_gradient(d1)
         func_gradient(60%)
       .software_element:nth-child(3)
         func_gradient(90%)
-  .table_software
-    width 90.66%
-    max-width 90.66%
-    margin-left 2%
-    color black
-    text-transform uppercase
-    font-family "Myriad Pro Regular"
-    font-size 0.625 * textsize
-    tr:first-child
-      td:first-child
-        func_gradient(90%)
-      td:last-child
-        func_gradient(80%)
-    tr:nth-child(2)
-      td:first-child
-        func_gradient(70%)
-      td:last-child
-        func_gradient(60%)
-    tr:last-child
-      td:first-child
-        func_gradient(55%)
-      td:last-child
-        func_gradient(90%)
-    tr
-      td:first-child
-        width 446px
 
 
 

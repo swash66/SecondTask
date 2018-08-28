@@ -52,7 +52,7 @@ let conf = {
     },
     watch: true,
     plugins: [
-        new sync({
+        /*new sync({
             host: "localhost",
             port: 6555,
             server: {
@@ -60,7 +60,7 @@ let conf = {
             },
             open: false,
             files: ["./*.html"]
-        }),
+        }),*/
         new ExtractTextPlugin("styles.css"),
         /*new BrowserSyncPlugin(
             // BrowserSync options
