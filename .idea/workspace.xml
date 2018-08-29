@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb6e52-1734-4f00-89c6-5e110c0f3c0d" name="Default" comment="Верстка без полного респонсива. Отсутствуют картинки на иконках разделов. Не до конца закончено выравнивание содержимого некоторых разделов.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/contact_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contact_style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/namehere_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/namehere_style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/profile_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/profile_style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/skills_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/skills_style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style1.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style1.styl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -77,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style1.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style1.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/style1.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
@@ -147,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/css/profile_style.styl" />
         <option value="$PROJECT_DIR$/src/css/skills_style.styl" />
         <option value="$PROJECT_DIR$/src/css/namehere_style.styl" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/css/style1.styl" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -260,12 +253,12 @@
       <workItem from="1534922089410" duration="4103000" />
       <workItem from="1534935942382" duration="17802000" />
       <workItem from="1535396205295" duration="1882000" />
-      <workItem from="1535400300165" duration="14711000" />
+      <workItem from="1535400300165" duration="15338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156715000" />
+    <option name="totallyTimeSpent" value="157342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,17 +616,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style1.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
