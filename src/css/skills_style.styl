@@ -21,15 +21,43 @@ func_paint_grey_shadow(value)
     vall = vall, greycolor -35px * (i) - 3 0
   return vall
 
+func_paint_color_ellipse(number)
+  for i in 1..number
+    .ellipse:nth-child({i})
+      background-color bluecolor
+  for i in number+1..12
+    .ellipse:nth-child({i})
+      background-color greycolor
+  /*.ellipse:nth-child(temp_number)
+    if temp_number < number
+      background-color bluecolor
+    else
+      background-color greycolor
+  if temp_number != 12
+    temp_number = temp_number +1
+    func_paint_color_ellipse(number, temp_number)*/
+
 
 
 .skills_container
   margin-left 11.43%
   width 75.714%
+  @media (max-width 900px)
+    width 100%
+    margin-left 0
   text-align center
   display flex
   flex-direction column
   padding-top 38px
+  .ellipse
+    display inline-block
+    border-radius 100%
+    width: 5.4%;
+    overflow: hidden;
+  .ellipse:before
+    content: "";
+    padding-top: 100%;
+    float: left;
   .ellipse_container
     display flex
     justify-content space-between
@@ -37,16 +65,6 @@ func_paint_grey_shadow(value)
     margin auto
     margin-top 19px
     margin-bottom 35px
-  .blue_ellipse,
-  .white_ellipse
-    display inline-block
-    width 22px
-    height 22px
-    border-radius 100%
-  .blue_ellipse
-    background-color bluecolor
-  .white_ellipse
-    background-color greycolor
   .skills_element
     font-family "Myriad Pro Regular"
     text-transform uppercase
@@ -56,24 +74,17 @@ func_paint_grey_shadow(value)
 
     /*Рисование кружков*/
 .creative
-  .white_ellipse
-    box-shadow func_paint_grey_shadow(2)
-  .blue_ellipse
-    box-shadow func_paint_blue_shadow(8)
+  func_paint_color_ellipse(9)
+
 
 
 .teamwork
-  .blue_ellipse
-    box-shadow func_paint_blue_shadow(10)
+  func_paint_color_ellipse(11)
 
 
 .innovate
-  .blue_ellipse
-    box-shadow func_paint_blue_shadow(5)
-  .white_ellipse
-    box-shadow func_paint_grey_shadow(5)
+  func_paint_color_ellipse(6)
 
 
 .communication
-  .blue_ellipse
-    box-shadow func_paint_blue_shadow(10)
+  func_paint_color_ellipse(11)

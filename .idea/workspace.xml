@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2bbb6e52-1734-4f00-89c6-5e110c0f3c0d" name="Default" comment="Верстка без полного респонсива. Отсутствуют картинки на иконках разделов. Не до конца закончено выравнивание содержимого некоторых разделов.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/education_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/education_style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/experiance_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/experiance_style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/contact_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contact_style.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/namehere_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/namehere_style.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/profile_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/profile_style.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/skills_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/skills_style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/software_style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/software_style.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style1.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style1.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="education_style.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/education_style.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
+            <state relative-caret-position="1173">
               <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
             </state>
           </provider>
@@ -42,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiance_style.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="experiance_style.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/experiance_style.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
@@ -60,29 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/percentage/percentage/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-417">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="skills_style.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/skills_style.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="-68">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style1.styl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style1.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/style1.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2831">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="212">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,8 @@
       <file leaf-file-name="contact_style.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/contact_style.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -99,8 +98,8 @@
       <file leaf-file-name="namehere_style.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/namehere_style.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+            <state relative-caret-position="799">
+              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -108,8 +107,8 @@
       <file leaf-file-name="profile_style.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/profile_style.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="221">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -138,18 +137,18 @@
         <option value="$PROJECT_DIR$/dist/styles.css" />
         <option value="$PROJECT_DIR$/src/css/fonts/MyriadPro/namehere_style.styl" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/css/contact_style.styl" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$USER_HOME$/Downloads/percentage/percentage/webpack.config.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/css/namehere_style.styl" />
-        <option value="$PROJECT_DIR$/src/css/skills_style.styl" />
         <option value="$PROJECT_DIR$/src/css/education_style.styl" />
         <option value="$PROJECT_DIR$/src/css/experiance_style.styl" />
         <option value="$PROJECT_DIR$/src/css/software_style.styl" />
-        <option value="$PROJECT_DIR$/src/css/style1.styl" />
+        <option value="$PROJECT_DIR$/src/css/contact_style.styl" />
         <option value="$PROJECT_DIR$/src/css/profile_style.styl" />
+        <option value="$PROJECT_DIR$/src/css/skills_style.styl" />
+        <option value="$PROJECT_DIR$/src/css/namehere_style.styl" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/css/style1.styl" />
       </list>
     </option>
   </component>
@@ -261,12 +260,12 @@
       <workItem from="1534922089410" duration="4103000" />
       <workItem from="1534935942382" duration="17802000" />
       <workItem from="1535396205295" duration="1882000" />
-      <workItem from="1535400300165" duration="5294000" />
+      <workItem from="1535400300165" duration="14711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147298000" />
+    <option name="totallyTimeSpent" value="156715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,14 +280,14 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21546261" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21546261" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32918397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918397" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3098202" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3098202" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -533,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="177" column="60" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/WebProjects/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -582,10 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style1.styl">
+    <entry file="file://$PROJECT_DIR$/src/css/namehere_style.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2831">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="799">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -596,38 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/skills_style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/profile_style.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/namehere_style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/education_style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/contact_style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -635,6 +599,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/skills_style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/contact_style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/education_style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style1.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
         </state>
       </provider>
     </entry>

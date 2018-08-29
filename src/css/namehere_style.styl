@@ -30,24 +30,26 @@ firstcolumnsize = windowsize * 0.7571
   font-style: normal;
 
 
-funcellipse1( color1, r)
+funcellipse1(r)
   widthborder = r*0.063333
   diametr = r - 2 - widthborder*2
-  background-color color1
+  background-color bluecolor
   width diametr
   height diametr
   border white widthborder  solid
   border-radius 100%
-  box-shadow color1 0 0 0 1px
+  box-shadow bluecolor 0 0 0 1px
 
 
 /*Иконка первого раздела*/
-.icon-main{
-  funcellipse1(bluecolor, windowsize*0.1875)
+.icon-main
+  funcellipse1(windowsize*0.1875)
+  @media (max-width 900px)
+    funcellipse1(windowsize*0.1875*0.5)
   margin auto
   margin-top 115px
   margin-bottom 26px
-}
+
 
 /*первый раздел*/
 .namehere
